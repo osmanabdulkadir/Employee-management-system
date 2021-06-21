@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    
+    font-family:  'Open Sans', 'Helvetica Neue', 'sans-serif';
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    background-color:  rgb(59, 59, 245);
+    height: 100vh;
+    width: 60px;
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    border: rgb(59, 59, 245);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    
+}
+
+
+#lines{
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 14px;
+
+}
+
+#logo{
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 7px;
+    font-size: 35px;
+}
+
+#logo2{
+    margin-top: 95px;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+#logo3{
+    margin-top: 35px;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+#logo4{
+    margin-top: 35px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#logo5{
+    margin-top: 35px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+#sign-out{
+    margin-top: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+#overview{
+    position: fixed;
+    margin-top: 35px;
+    margin-left: 72px;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+#team{
+    position: fixed;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-left: 270px;
+    
+}
+
+#search{
+    position: fixed;
+    font-size: 12px;
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+#search-text{
+    position: fixed;
+    font-size: 10px;
+    font-weight: 700;
+    margin-left: 520px;
+    margin-top: 60px;
+}
+
+#noto{
+    position: fixed;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 1200px;
+    margin-top: 60px;
+}
+
+#bell{
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 900px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+#comment{
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 1000px;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+#profile{
+    position: fixed;
+    display: inline-block;
+    height: 700px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 25px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: black;
+}
+#profile-picture{
+    position: fixed;
+    margin-left: 260px;
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+#name{
+    position: fixed;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#email{
+    position: fixed;
+    font-size: 20px;
+    color: gray;
+    margin-top: 55px;
+    margin-left:25px
+
+}
+#experance{
+    position: fixed;
+    font-size: 16px;
+    color: gray;
+    margin-left: 25px;
+    margin-top: 135px;
+}
+
+#salary{
+    position: fixed;
+    font-size: 16px;
+    color: gray;
+    margin-left: 125px;
+    margin-top: 135px;
+}
+
+#project-process{
+    position: fixed;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 520px;
+    width: 200px;
+    height: 175px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+#wrench{
+    position: fixed;
+    font-size: 16px;
+    background-color: red;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+ #percent{
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 75px;
+    font-size: 40px;
+    font-weight: 800;
+}
+#project-process-text{
+    position: fixed;
+    font-size: 18px;
+    color: gray;
+    margin-top:10px;
+    margin-left: 40px;
+}
+#progress-bar-1{
+    position: fixed;
+    background-color: rgb(45, 132, 214);
+    width: 150px;
+    height: 10px;
+    margin-top: 120px;
+    margin-left: 15px;
+    border:  1px solid white;
+    border-radius: 25px
+
+}
+
+#progress-bar-2{
+    position: fixed;
+    background-color: rgb(45, 132, 214);
+    width: 150px;
+    height: 10px;
+    margin-top: 120px;
+    margin-left: 15px;
+    border:  1px solid white;
+    border-radius: 25px;
+}
+#progress-bar-22{
+    position: fixed;
+    background-color: white;
+    width: 110px;
+    height: 10px;
+    margin-top: 100px;
+    border:  1px solid white;
+    border-radius: 25px;
+   
+}
+
+#project-process2{
+    position: fixed;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 210px;
+    width: 200px;
+    height: 175px;
+    border: 1px solid white;
+    border-radius: 25px; 
+}
+#clock{
+    position: fixed;
+    font-size: 16px;
+    background-color: red;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-left: 7px;
+
+}
+#Completion-rate{
+    position: fixed;
+    font-size: 18px;
+    color: gray;
+    margin-top:10px;
+    margin-left: 40px;
+
+}
+#percent1{
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 65px;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+#growth{
+    position: fixed;
+    margin-top: 170px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#sliders{
+    position: fixed;
+    margin-left: 350px;
+    margin-top: 170px;
+}
+
+#graph-img{
+    position: fixed;
+    width: 300px;
+    height: 230px;
+    margin-top: 200px;
+    margin-left: 25px;
+}
+
+#radar-chart-div{
+    position: fixed;
+    margin-top: 450px;
+}
+#radar-chart{
+    position: fixed;
+    margin-left: 25px;    width: 300px;
+    height: 230px;
+}
+
+#bundle-studio{
+    position: fixed;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 420px;
+    width: 300px;
+    height: 175px;
+    border: 1px solid white;
+    border-radius: 25px;
+    overflow: hidden;
+    
+}
+
+.bundel-img{
+    position: fixed;
+    height: 25px;
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+#calander{
+    position: fixed;
+    width: 725px;
+    height: 400px;
+    margin-top: 190px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 45px;
+}
