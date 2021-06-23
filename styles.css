@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: lightgray;
+    background-color: rgb(246,250,255);
     
     font-family:  'Open Sans', 'Helvetica Neue', 'sans-serif';
     width: 100%;
@@ -13,13 +13,13 @@ body{
 }
 
 nav{
-    background-color:  rgb(59, 59, 245);
+    background-color:  rgb(29,149,238);
     height: 100vh;
     width: 60px;
     display: inline-block;
     position: fixed;
     left: 0;
-    border: rgb(59, 59, 245);
+    border: rgb(29,149,238);
     border-radius: 5px;
     padding: 5px;
     color: white;
@@ -201,7 +201,7 @@ nav{
 #wrench{
     position: fixed;
     font-size: 16px;
-    background-color: red;
+    background-color: rgb(255,93,109);
     padding: 3px;
     border: 1px solid white;
     border-radius: 25px;
@@ -268,7 +268,7 @@ nav{
 #clock{
     position: fixed;
     font-size: 16px;
-    background-color: red;
+    background-color: rgb(255,93,109);
     padding: 3px;
     border: 1px solid white;
     border-radius: 25px;
@@ -350,21 +350,24 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: 24px;
+    margin-left: 10px;
     margin-top: 124px;
 }
 
 #dots{
     position: fixed;
+    color: gray;
+    font-size: 35px;
     margin-top: 15px;
+    margin-left: 260px;
 }
 
 #jet{
     position: fixed;
     font-size: 30px;
-    background-color: purple;
+    background-color: rgb(68,102,225);
     padding: 3px;
-    border: 1px solid white;
+    border: 1px solid rgb(68,102,225);
     border-radius: 25px;
     margin-top: 20px;
     margin-left: 20px;
@@ -388,7 +391,7 @@ nav{
 #calander{
     position: fixed;
     width: 725px;
-    height: 400px;
+    height: 510px;
     margin-top: 190px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -397,3 +400,132 @@ nav{
     border: 1px white solid;
     border-radius: 45px;
 }
+
+#month{
+    position: fixed;
+    margin-left: 70px;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+#year{
+    position: fixed;
+    color: gray;
+    margin-left: 120px;
+    margin-top: 27px;
+    font-size: 16px;
+    
+}
+
+#show{
+    position: fixed;
+    margin-top: 25px;
+    color: gray;
+    font-size: 400;
+    margin-left: 430px
+}
+
+#week{
+    position: fixed;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 400;
+    margin-left: 475px
+
+}
+
+#arrow-left{
+    position: fixed;
+    margin-top: 10px;
+    font-size: 400;
+    margin-left: 675px
+
+}
+#arrow-right{
+    position: fixed;
+    margin-top: 10px;
+    font-size: 400;
+    margin-left: 640px
+}
+
+
+
+
+#week1{
+    position: fixed;
+    margin-top: -110px;
+    margin-left: 200px;
+    background-color: rgb(241,246,255);
+    width: 500px;
+    height: 70px;
+    border: 1px solid rgb(241,246,255);
+    border-radius: 25px;
+    padding: 1px;
+}
+
+#week2{
+    position: fixed;
+    margin-top: 700px;
+    margin-left: 700px;
+    background-color: rgb(255,93,109);
+    width: 400px;
+    height: 70px;
+    border: 1px solid rgb(255,93,109);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#week3{
+    position: fixed;
+    margin-top: 600px;
+    margin-left: 708px;
+    background-color: rgb(241,246,255);
+    width: 150px;
+    height: 70px;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#week4{
+    position: fixed;
+    margin-top: 503px;
+    margin-left: 708px;
+    background-color: rgb(241,246,255);
+    width: 500px;
+    height: 70px;
+    border: 1px solid rgb(241,246,255);
+    border-radius: 25px;
+    padding: 1px;
+
+}
+#line-1{
+    position: fixed;
+    width: 750px;
+    height: 1px;
+    background-color: black;
+    margin-left: -10;
+    margin-top: -350px;
+    
+}
+#line-2{
+    position: fixed;
+    width: 750px;
+    height: 1px;
+    background-color: black;
+    margin-left: -10;
+    margin-top: -750px;
+    
+}
+#line-3{
+    transform: rotate(90deg);
+    position: fixed;
+    width: 1px;
+    height: 50px;
+    background-color: black;
+    margin-left: -330px;
+    margin-top: -30px;  
+}
+
