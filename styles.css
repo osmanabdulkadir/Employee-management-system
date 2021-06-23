@@ -258,8 +258,8 @@ nav{
 #project-process2{
     position: fixed;
     background-color: white;
-    margin-top: 0px;
-    margin-left: 210px;
+    margin-top: 100px;
+    margin-left: 730px;
     width: 200px;
     height: 175px;
     border: 1px solid white;
@@ -328,8 +328,8 @@ nav{
 #bundle-studio{
     position: fixed;
     background-color: white;
-    margin-top: 0px;
-    margin-left: 420px;
+    margin-top: 100px;
+    margin-left: 940px;
     width: 300px;
     height: 175px;
     border: 1px solid white;
@@ -377,7 +377,7 @@ nav{
     position: fixed;
     margin-top: 20px;
     margin-left: 55px;
-    font-size: 20px;
+    font-size: 16px;
     color: black;
     font-weight: 600;
 }
@@ -392,8 +392,8 @@ nav{
     position: fixed;
     width: 725px;
     height: 510px;
-    margin-top: 190px;
-    margin-left: 10px;
+    margin-top: 290px;
+    margin-left: 520px;
     margin-bottom: 10px;
     padding: 10px;
     background-color: white;
@@ -455,11 +455,11 @@ nav{
 
 #week1{
     position: fixed;
-    margin-top: -110px;
-    margin-left: 200px;
+    margin-top: -150px;
+    margin-left: 87px;
     background-color: rgb(241,246,255);
-    width: 500px;
-    height: 70px;
+    width: 704px;
+    height: 85px;
     border: 1px solid rgb(241,246,255);
     border-radius: 25px;
     padding: 1px;
@@ -467,11 +467,11 @@ nav{
 
 #week2{
     position: fixed;
-    margin-top: 700px;
-    margin-left: 700px;
+    margin-top: -50px;
+    margin-left: 140px;
     background-color: rgb(255,93,109);
-    width: 400px;
-    height: 70px;
+    width: 466px;
+    height: 85px;
     border: 1px solid rgb(255,93,109);
     border-radius: 25px;
     padding: 10px;
@@ -479,20 +479,20 @@ nav{
 
 #week3{
     position: fixed;
-    margin-top: 600px;
-    margin-left: 708px;
+    margin-top: -50px;
+    margin-left: 620px;
     background-color: rgb(241,246,255);
-    width: 150px;
-    height: 70px;
-    border: 1px solid gray;
+    width: 110px;
+    height: 85px;
+    border: 1px solid rgb(241,246,255);
     border-radius: 25px;
     padding: 10px;
 }
 
 #week4{
     position: fixed;
-    margin-top: 503px;
-    margin-left: 708px;
+    margin-top: 100px;
+    margin-left: 60px;
     background-color: rgb(241,246,255);
     width: 500px;
     height: 70px;
@@ -503,29 +503,53 @@ nav{
 }
 #line-1{
     position: fixed;
-    width: 750px;
+    width: 725px;
     height: 1px;
     background-color: black;
-    margin-left: -10;
-    margin-top: -350px;
+    margin-left: -10px;
+    margin-top: -60px;
     
 }
 #line-2{
     position: fixed;
-    width: 750px;
+    width: 725px;
     height: 1px;
     background-color: black;
-    margin-left: -10;
-    margin-top: -750px;
+    margin-left: -10px;
+    margin-top: 70px;
     
 }
 #line-3{
     transform: rotate(90deg);
     position: fixed;
-    width: 1px;
-    height: 50px;
+    /* width: 10px;
+    height: 500px; */
     background-color: black;
-    margin-left: -330px;
-    margin-top: -30px;  
+    margin-left: -10px;
+    margin-top: 60px;  
 }
+.side-bar{
+    color: gray;
+    font-size: 20px;
+}
+
+#side-bar1{
+    position: fixed;
+    margin-top: 200px;
+    transform: rotate(90deg);
+    margin-left: -20px;
+}
+#side-bar2{
+    position: fixed;
+    margin-top: 300px;
+    transform: rotate(90deg);
+    margin-left: -10px;
+}
+#side-bar3{
+    position: fixed;
+    margin-top: 400px;
+    transform: rotate(90deg);
+    margin-left: -40px;
+}
+
 
