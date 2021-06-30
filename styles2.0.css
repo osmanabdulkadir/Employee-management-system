@@ -1,0 +1,82 @@
+:root{
+    --color--primary-100: rgb(45, 132, 214);
+    --color--primary-200: rgb(246,250,255);
+    --color--primary-300: rgb(255,93,109);
+
+    --ff-primary-: "roboto", sans serif
+
+}
+
+@media (min-width: 480px){ 
+    nav{
+        position: fixed;
+        display: flex;
+        justify-content: first baseline;
+        
+        top: 0;
+        left: 0;
+        background-color: var(--color--primary-100);
+        color: var(--color--primary-200);
+        height: 3rem;
+        width: 100vw;
+        overflow: hidden;
+        z-index: 1;
+
+    }  
+
+    nav div{
+        padding: 10px;
+        width: rem;
+        margin: .6rem .0234rem;
+    }
+    #wrapper{
+     display: flex;
+     width: 90vw;
+     flex-direction: column;
+     column-gap: 1rem;
+    }
+
+    #profile{
+        background-color: var(--color--primary-200);
+        margin-top: 5rem;
+        border: 1px solid gray;
+        border-radius: 100px;
+        overflow: hidden;
+        padding: 1rem;
+    }
+
+    #overview{
+        position: relative;
+        margin-top: 3rem;
+        margin-left: 0.625rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+        
+    }
+
+    #team{
+        position: relative;
+        font-size: 0.625rem;
+        margin-left: 0.625rem; 
+    }
+
+    #search{
+        position: relative;
+        font-size: 0.625rem;
+        margin-left: ;
+    }
+}
+@media (min-width: 768px){
+    
+}
+@media (min-width: 992px){
+    
+}
+@media (min-width: 1200px){
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
